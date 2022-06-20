@@ -8,11 +8,51 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/91af2cc603.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
+    <div class="navbar">
+      <div class="header-left">
+        <div class="header-h1">
+          <h1>NavBar</h1>
+        </div>
+        <div class="header-h2">
+          <h2 class="current-page">Feed</h2>
+          <h2>Attendance</h2>
+          <h2>Events</h2>
+          <h2>Library</h2>
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="weather-info">
+          <div class="weather-left">
+            <i class="fa-solid fa-sun weather-icon fa-2xl"></i>
+          </div>
+          <div class="weather-right">
+            <p class="weather-city">City, State</p>
+            <span class="weather-high">H:</span>
+            <span class="weather-low">L:</span>
+          </div>
+        </div>
+        <div class="profile-pic">
+          <img src="images/profilepic.jpg" alt="Profile Picture Pug">
+        </div>
+      </div>
+    </div>
   </header>
   <main>
+    <div class="main-image">
+      <img src="images/classroom1.jpg" alt="Classroom">
+    </div>
+    <button>
+      <i class="fa-solid fa-plus"></i>
+      Add
+    </button>
+    <p>There are no posts.</p>
   </main>
   <script src="js/data.js"></script>
   <script src="js/main.js"></script>

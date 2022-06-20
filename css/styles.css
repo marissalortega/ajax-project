@@ -1,0 +1,95 @@
+header {
+  width: 100%;
+  background-color: #11b0bf;
+}
+
+.navbar {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1280px;
+  height: 56px;
+  font-family: Quicksand, sans-serif;
+}
+
+.header-left {
+  flex-basis: 75%;
+}
+
+.header-right {
+  display: flex;
+  flex-basis: 25%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header-h1 > h1 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  margin-right: 56px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.header-h2 > h2 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 56px;
+}
+
+.current-page {
+  background-color: #00808f;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.weather-info {
+  display: flex;
+  margin-right: 24px;
+  color: #333;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.weather-left {
+  margin-right: 8px;
+}
+
+.weather-high {
+  margin-right: 8px;
+}
+
+.weather-city,
+.weather-high,
+.weather-low {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+}
+
+.profile-pic > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  object-fit: cover;
+}
+
+.main-image {
+  margin-top: 56px;
+  width: 832px;
+  height: 272px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-image > img {
+  width: 832px;
+  height: 272px;
+  object-fit: cover;
+}
