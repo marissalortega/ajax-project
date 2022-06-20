@@ -18,13 +18,13 @@
     <div class="navbar">
       <div class="header-left">
         <div class="header-h1">
-          <h1>NavBar</h1>
+          <h1><a>NavBar</a></h1>
         </div>
         <div class="header-h2">
-          <h2 class="current-page">Feed</h2>
-          <h2>Attendance</h2>
-          <h2>Events</h2>
-          <h2>Library</h2>
+          <h2><a class="current-page">Feed</a></h2>
+          <h2><a>Attendance</a></h2>
+          <h2><a>Events</a></h2>
+          <h2><a>Library</a></h2>
         </div>
       </div>
       <div class="header-right">
@@ -45,14 +45,18 @@
     </div>
   </header>
   <main>
-    <div class="main-image">
-      <img src="images/classroom1.jpg" alt="Classroom">
+    <div class="page-content">
+      <div class="main-image">
+        <img src="images/classroom1.jpg" alt="Classroom">
+      </div>
+      <div class="button-div">
+        <button class="add-post-button">
+          <i class="fa-solid fa-plus"></i>
+          Add
+        </button>
+      </div>
+      <p class="no-posts-p">There are no posts.</p>
     </div>
-    <button>
-      <i class="fa-solid fa-plus"></i>
-      Add
-    </button>
-    <p>There are no posts.</p>
   </main>
   <script src="js/data.js"></script>
   <script src="js/main.js"></script>
