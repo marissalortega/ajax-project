@@ -1,3 +1,7 @@
+.hidden {
+  display: none;
+}
+
 body {
   font-family: Quicksand, sans-serif;
 }
@@ -79,7 +83,7 @@ button {
   margin-right: 8px;
 }
 
-.weather-high {
+.low {
   margin-right: 8px;
 }
 
