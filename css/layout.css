@@ -1,4 +1,5 @@
 .navbar {
+  max-width: 1280px;
   display: flex;
 }
 
@@ -6,6 +7,41 @@
   display: flex;
 }
 
-.header-h2 {
+.nav-links {
   display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    top: 56px;
+    background-color: #11b0bf;
+    flex-direction: column;
+    margin-top: 0;
+    margin-right: 0;
+    padding-top: 56px;
+    opacity: 95%;
+    transform: translateX(-100%);
+    transition: transform 0.25s ease-in;
+  }
+
+  .nav-links li {
+    padding-bottom: 56px;
+    margin-right: 0 !important;
+  }
+
+  .burger {
+    display: block !important;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .page-content {
+    margin-left: 56px !important;
+    margin-right: 56px !important;
+  }
 }

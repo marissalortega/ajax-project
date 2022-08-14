@@ -17,22 +17,35 @@
   <header>
     <div class="navbar">
       <div class="header-left">
-        <div class="header-h1">
-          <h1><a>NavBar</a></h1>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
         </div>
-        <div class="header-h2">
-          <h2><a class="current-page">Feed</a></h2>
-          <h2><a>Attendance</a></h2>
-          <h2><a>Events</a></h2>
-          <h2><a>Library</a></h2>
+        <div class="nav-logo">
+          <h1><a href="#">NavBar</a></h1>
         </div>
+        <ul class="nav-links">
+          <li>
+            <a href="#" class="current-page">Feed</a>
+          </li>
+          <li>
+            <a href="#">Attendance</a>
+          </li>
+          <li>
+            <a href="#">Events</a>
+          </li>
+          <li>
+            <a href="#">Library</a>
+          </li>
+        </ul>
       </div>
       <div class="header-right">
-        <div class="weather-info">
-          <div class="weather-left">
+        <div class="weather-info block">
+          <span class="weather-left inner">
             <i class="fa-solid fa-sun weather-icon fa-2xl"></i>
-          </div>
-          <div class="weather-right">
+          </span>
+          <div class="weather-right inner">
             <p class="weather-city">City, State</p>
             <span>H:</span>
             <span class="weather-high weather-number">87</span>
@@ -41,9 +54,9 @@
             <span class="weather-low weather-number">68</span>
             <span class="degress-symbol">&deg;</span>
           </div>
-        </div>
-        <div class="profile-pic">
-          <img src="images/profilepic.jpg" alt="Profile Picture Pug">
+          <span class="profile-pic inner">
+            <img src="images/profilepic.jpg" alt="Profile Picture Pug">
+          </span>
         </div>
       </div>
     </div>

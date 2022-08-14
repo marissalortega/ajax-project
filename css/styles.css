@@ -2,6 +2,14 @@
   display: none;
 }
 
+.navbar {
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 56px;
+}
+
 body {
   font-family: Quicksand, sans-serif;
 }
@@ -27,26 +35,14 @@ button {
   padding: 8px 24px;
 }
 
-.navbar {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1280px;
-  height: 56px;
-}
-
-.header-left {
-  flex-basis: 75%;
-}
-
 .header-right {
-  display: flex;
   justify-content: right;
-  flex-basis: 25%;
   margin-top: auto;
   margin-bottom: auto;
+  margin-left: auto;
 }
 
-.header-h1 > h1 {
+.nav-logo h1 {
   color: #fff;
   font-size: 32px;
   font-weight: 700;
@@ -55,11 +51,43 @@ button {
   margin-bottom: 8px;
 }
 
-.header-h2 > h2 {
+.nav-logo a {
   color: #fff;
-  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav-links {
+  padding-left: 0;
+  color: #fff;
+  font-size: 16px;
   font-weight: 600;
   margin-right: 56px;
+  align-items: center;
+}
+
+.nav-links li {
+  list-style: none;
+  margin-right: 56px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.burger {
+  display: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 24px;
+}
+
+.burger div {
+  width: 25px;
+  height: 2px;
+  background-color: #ffff;
+  margin-bottom: 5px;
+  transition: all 0.3s ease;
 }
 
 .current-page {
@@ -71,20 +99,25 @@ button {
 }
 
 .weather-info {
-  display: flex;
-  align-items: center;
-  margin-right: 24px;
+  height: 56px;
   color: #333;
   font-size: 12px;
   font-weight: 600;
+  padding-top: 8px;
+}
+
+.inner {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
 }
 
 .weather-left {
   margin-right: 8px;
 }
 
-.low {
-  margin-right: 8px;
+.weather-right {
+  display: inline-block;
 }
 
 .weather-city,
@@ -97,6 +130,7 @@ button {
 .profile-pic {
   width: 40px;
   height: 40px;
+  margin-left: 8px;
 }
 
 .profile-pic > img {
@@ -108,14 +142,14 @@ button {
 }
 
 .page-content {
-  width: 832px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 56px;
+  margin-left: 128px;
+  margin-right: 128px;
 }
 
 .main-image {
-  margin-top: 56px;
-  width: 832px;
+  margin: 0 auto;
+  width: 100%;
   height: 272px;
 }
 
@@ -139,4 +173,20 @@ button {
   font-size: 16px;
   margin-top: 56px;
   text-align: center;
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
 }
