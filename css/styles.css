@@ -98,26 +98,22 @@ button {
   margin-right: -16px;
 }
 
+.weather,
+.weather-icon,
+.weather-info,
+.profile-pic {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .weather-info {
-  height: 56px;
   color: #333;
   font-size: 12px;
   font-weight: 600;
-  padding-top: 8px;
 }
 
-.inner {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
-}
-
-.weather-left {
-  margin-right: 8px;
-}
-
-.weather-right {
-  display: inline-block;
+.weather-icon {
+  margin-right: 4px;
 }
 
 .weather-city,
