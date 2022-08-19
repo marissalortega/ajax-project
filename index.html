@@ -8,11 +8,72 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/91af2cc603.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
+    <div class="navbar">
+      <div class="header-left">
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <div class="nav-logo">
+          <h1><a href="#">NavBar</a></h1>
+        </div>
+        <ul class="nav-links">
+          <li>
+            <a href="#" class="current-page">Feed</a>
+          </li>
+          <li>
+            <a href="#">Attendance</a>
+          </li>
+          <li>
+            <a href="#">Events</a>
+          </li>
+          <li>
+            <a href="#">Library</a>
+          </li>
+        </ul>
+      </div>
+      <div class="header-right">
+        <div class="weather">
+          <span class="weather-icon">
+            <i></i>
+          </span>
+          <div class="weather-info">
+            <p class="weather-city">Mission Viejo, CA</p>
+            <span>H:</span>
+            <span class="weather-high weather-number"></span>
+            <span class="degress-symbol">&deg;</span>
+            <span class="low">L:</span>
+            <span class="weather-low weather-number"></span>
+            <span class="degress-symbol">&deg;</span>
+          </div>
+        </div>
+        <span class="profile-pic">
+          <img src="images/profilepic.jpg" alt="Profile Picture Pug">
+        </span>
+      </div>
+    </div>
   </header>
   <main>
+    <div class="page-content">
+      <div class="main-image">
+        <img src="images/classroom1.jpg" alt="Classroom">
+      </div>
+      <div class="button-div">
+        <button class="add-post-button">
+          <i class="fa-solid fa-plus"></i>
+          Add
+        </button>
+      </div>
+      <p class="no-posts-p">There are no posts.</p>
+    </div>
   </main>
   <script src="js/data.js"></script>
   <script src="js/main.js"></script>
