@@ -18,7 +18,7 @@ const weatherIcon = document.querySelector('.weather-icon > i');
 
 var xhr = new XMLHttpRequest();
 
-xhr.open('GET', 'http://dataservice.accuweather.com/forecasts/v1/daily/1day/38824_PC?apikey=YUrexqRdU80vL162fqN0h9vRpp6DEEtZ');
+xhr.open('GET', 'https://dataservice.accuweather.com/forecasts/v1/daily/1day/38824_PC?apikey=YUrexqRdU80vL162fqN0h9vRpp6DEEtZ');
 
 xhr.responseType = 'json';
 
