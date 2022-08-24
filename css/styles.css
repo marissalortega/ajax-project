@@ -145,8 +145,24 @@ button {
   object-fit: cover;
 }
 
+.feed-header-div {
+  display: flex;
+}
+
+.feed-h2 {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+}
+
 .button-div {
   text-align: right;
+}
+
+.feed-button-div {
+  display: inline-block;
+  margin-left: auto;
 }
 
 .add-post-button {

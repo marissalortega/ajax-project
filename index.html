@@ -66,13 +66,30 @@
       <div class="main-image">
         <img src="images/classroom1.jpg" alt="Classroom">
       </div>
-      <div class="button-div">
-        <button class="add-post-button">
-          <i class="fa-solid fa-plus"></i>
-          Add
-        </button>
+      <div class="feed-header-div">
+        <h2 class="feed-h2">Add an Update</h2>
+        <div class="button-div feed-button-div">
+          <button class="add-post-button">
+            <i class="fa-solid fa-plus"></i>
+            Add
+          </button>
+        </div>
       </div>
       <p class="no-posts-p">There are no posts.</p>
+    </div>
+    <div class="update-form-div">
+      <form class="update-form">
+        <label for="title">Title</label>
+        <input type="text" id="title" name="title">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6"></textarea>
+        <div class="button-div">
+          <button class="add-post-button">
+            <i class="fa-solid fa-plus"></i>
+            Add
+          </button>
+        </div>
+      </form>
     </div>
   </main>
   <script src="js/data.js"></script>
